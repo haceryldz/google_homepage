@@ -1,0 +1,256 @@
+
+.header {
+  list-style-type: none;
+  margin: 10px;
+  overflow: hidden;
+  margin-right: 16px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.kose, .headercontainer{
+  display: flex;
+  line-height: 24px;
+}
+.kose{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.photo{
+  display:flex;
+  align-items: center;
+}
+
+.headerli{
+  display: flex;
+  align-items: center;
+}
+
+.headerli a {
+  display: flex;
+  color: black;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.headerli a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  text-align: center;
+  margin: 100px;
+}
+
+.search-area {
+  background: #fff;
+  display: flex;
+  box-shadow: none;
+  z-index: 3;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+}
+
+.search:hover {
+box-shadow:  0 1px 6px rgb(32 33 36 / 28%);
+}
+
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+  height: 44px;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 638px;
+  width: auto;
+  max-width: 584px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  width: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+  border:none
+ 
+}
+
+/* buton tasarımı*/
+
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #f2f2f2 ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid #f2f2f2 ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  height: 36px;
+  border-radius: 4px;
+}
+
+.googlesearch:hover {
+box-shadow:0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.feelinglucky:hover {
+  box-shadow:0 1px 6px rgb(32 33 36 / 28%);
+  }
+
+.footer {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-left: -8px;
+  line-height: 10px;
+  background-color: #f2f2f2;
+}
+
+.footerli {
+  float: left;
+}
+
+.footerli a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin-left: 14px;
+  margin-right: -20px;
+}
+
+.footerli a:hover {
+  text-decoration: underline;
+}
+/* footer tasarım*/
+
+.yldz{
+    order: 0;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.hcr{
+  color: #999da2;
+  display: block;
+    padding: 15px;
+    white-space: nowrap;
+
+}
+.hrn{
+  height: 14px;
+  margin-right: 6px;
+}
+.bdm{
+  white-space: nowrap;
+  vertical-align: top;
+}
+.footercontainer{
+  justify-content: flex-start;
+    min-width: 30%;
+    order: 1;
+}
+.buttons{
+  display: block;
+  text-align: -webkit-center;
+  padding-top: 18px;
+}
+.img {
+  -webkit-background-size: 32px 32px;
+  background-size: 32px 32px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: 0px;
+  position: relative;
+  height: 32px;
+  width: 32px;
+  z-index: 0;
+}
